@@ -10,3 +10,8 @@ This project evaluate a strategy to deal with webhooks inside N8N webhook develo
 - Should be able to return a stringified JSON in the process out instance and be parsed after 
 
 (IF THE INITIALIZATION OF THE CLI IS FAST) Making a brand new http-server is out of the way because would have extra costs using a machine with N8N + 
+
+## Packages that should be tested
+- https://mael.dev/clipanion/
+- https://github.com/tj/commander.js
+- https://yargs.js.org/
