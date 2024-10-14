@@ -9,8 +9,8 @@ export class CommanderSingleton {
       CommanderSingleton.instance = new CommanderSingleton();
       CommanderSingleton.instance.app = new Command();
       CommanderSingleton.instance.app
-        .name("string-util")
-        .description("CLI to some JavaScript string utilities")
+        .name("n8n-webhooks")
+        .description("CLI to provide utilities for an N8N app")
         .version("0.8.0");
     }
     return CommanderSingleton.instance;
